@@ -5,10 +5,10 @@ define([
 	'jquery',
 	'd3',
 	'sankey',
-	'VistaToolTip',
+	'VistaTooltip',
 	'VistaEjesXY',
 	'views/LayoutCarreras'
-	], function(_, Backbone,$, d3,d3sankey, VistaToolTip, VistaEjesXY, LayoutCarreras){
+	], function(_, Backbone,$, d3,d3sankey, VistaTooltip, VistaEjesXY, LayoutCarreras){
 
 
 	var Visualizador = Backbone.View.extend(
@@ -44,8 +44,8 @@ define([
 	   		this.color = d3.scale.category20c();
 
 			// Vista con tooltip para mostrar datos del item respectivo
-			//this.tooltip = new VistaToolTip();
-			this.tooltip = new VistaToolTip();
+			//this.tooltip = new VistaTooltip();
+			this.tooltip = new VistaTooltip();
 			this.tooltip.message = this.tootipMessage;
 
 
