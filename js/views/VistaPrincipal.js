@@ -3,7 +3,7 @@ define([
 	'backbone',
 	'jquery',
 	'd3',
-	'views/VistaLoading',
+	'VistaLoading',
 	'VistaToolTip',
 	'views/Visualizador',
 
